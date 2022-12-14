@@ -40,7 +40,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v3
         with:
-          name: build-result
+          name: github-pages
           path: build
           if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
   
