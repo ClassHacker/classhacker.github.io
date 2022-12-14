@@ -1,7 +1,13 @@
+import './App.scss';
+
 function App() {
   return (
-    <div>
-      <a href='https://classhacker.github.io/tic-tac-toe/'>Tic-Tac-Toe</a>      
+    <div id='landing'>
+      <div className='landing-title'>
+        <h1>
+          Hi, I'm <span className='highlight-title'>ClassHacker</span>
+        </h1>
+      </div>
     </div>
   );
 }
