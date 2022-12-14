@@ -36,6 +36,13 @@ jobs:
 
       - name: Run test
         run: npm run test
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-result
+          path: build
+          if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
   
   deploy:
     # Add a dependency to the build job
