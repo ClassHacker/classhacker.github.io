@@ -1,0 +1,11 @@
+Merge
+
+react-animations also exports a merge function that takes two animations 
+and returns a new animation that combines the transforms from both. 
+This is experimental and wont work (well) with animations that have 
+conflicting transforms, such as fadeIn and fadeOut. The merged animation 
+can be used just like any of the imported animations.
+
+
+import { merge, tada, flip } from 'react-animations';
+const tadaFlip = merge(tada, flip);

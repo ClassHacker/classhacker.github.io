@@ -16,6 +16,24 @@ html, body {
     color: #ff073a;
     text-shadow: 0.25rem 0.25rem 0.25rem #ff073a;
 }
+.landing-icons {
+    display: flex;
+    justify-content: center;
+}
+.landing-icons .social-link {
+    color: #fff;
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0.25rem;
+    width: 3rem;
+}
+.landing-icons .social-link .circle {
+    animation: outWaveOut 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+    fill: none;
+    stroke-dasharray: 40;
+    transition: all 0.2s ease-in-out;
+}
 .landing-title {
     left: 0;
     margin: 0.5rem;
