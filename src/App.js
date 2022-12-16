@@ -27,7 +27,7 @@ function App() {
         </a>
         <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
           <svg viewBox="0 0 200 200" className="circle">
-            <circle cx="100" cy="100" r="80" fill='white' />
+            <circle cx="100" cy="100" r="160" fill='white' />
           </svg>
           <div className='social'>
             <FontAwesomeIcon icon={faTelegram} />
@@ -61,10 +61,6 @@ function App() {
           </div>
           <span className="label">Whatsapp</span>
         </a>
-
-        <svg>
-          <circle cx={50} cy={50} r={10} fill="red" />
-        </svg>
       </div>
     </div>
   );

@@ -1,7 +1,57 @@
-html, body {
-    background: #2b2d2f;
-    color: white;
+// Variables
+$small-screen: 48em !default;
+$medium-screen: 62em !default;
+$large-screen: 75em !default;
+$font-family: "Raleway", sans-serif;
+$font-family-numbers: "Josefin Sans", sans-serif;
+$font-size-base: 1rem !default;
+$font-size-h1: 2rem !default;
+$font-weight-strong: 600;
+$text-color: #fff !default;
+$bg-color: rgba(43, 45, 47, 1);
+$card-bg-color: linear-gradient(
+  145deg,
+  rgba(115, 115, 115, 0.15) 15%,
+  rgba(43, 45, 47, 1) 80%
+);
+$primary-color: #ff073a;
+
+a {
+    background-color: transparent;
+    color: #ff073a;
+    text-decoration: none;
+    cursor: pointer;
 }
+html {
+    background: $bg-color;
+    color: $text-color;
+    font-family: $font-family;
+    font-size: $font-size-base;
+    font-weight: normal;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    height: 100%;
+  }
+  h1 {
+    font-size: $font-size-h1;
+    font-weight: $font-weight-strong;
+    line-height: 2rem;
+  }
+  
+  p {
+    word-spacing: 0.1rem;
+  }
+  a {
+    color: $primary-color;
+    text-decoration: none;
+  
+    &:hover {
+      color: $text-color;
+    }
+  }
 svg:not(:root) {
     overflow: hidden;
 }
@@ -14,10 +64,24 @@ svg:not(:root) {
     padding: 0.5rem;
     text-align: center;
 }
+.highlight-link {
+    box-shadow: inset 0 -0.125rem 0 $primary-color;
+    box-sizing: border-box;
+    color: $primary-color;
+    display: inline-block;
+    padding: 0.125rem 0.125rem;
+    transition: all 0.2s ease-in-out;
+  
+    &:hover {
+      box-shadow: inset 0 -2rem 0 0 $primary-color;
+      color: $text-color;
+    }
+  }
 .highlight-title {
-    color: #ff073a;
-    text-shadow: 0.25rem 0.25rem 0.25rem #ff073a;
-}
+    color: $primary-color;
+    text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  }
+
 .landing-icons {
     display: flex;
     justify-content: center;
@@ -43,4 +107,24 @@ svg:not(:root) {
     position: absolute;
     right: 0;
     top: 40%;
+}
+
+.social-link {
+color: $text-color;
+position: relative;
+height: 3rem;
+line-height: 3rem;
+margin: 0.25rem;
+width: 3rem;
+}
+
+@media only screen and (min-width: 48em){
+    .landing-icons .social-link {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .landing-title h1 {
+        font-size: 3rem;
+    }
 }
