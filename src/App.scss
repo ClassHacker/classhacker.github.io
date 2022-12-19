@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+
 // Variables
 $small-screen: 48em !default;
 $medium-screen: 62em !default;
@@ -16,12 +19,6 @@ $card-bg-color: linear-gradient(
 );
 $primary-color: #ff073a;
 
-a {
-    background-color: transparent;
-    color: #ff073a;
-    text-decoration: none;
-    cursor: pointer;
-}
 html {
     background: $bg-color;
     color: $text-color;
@@ -32,29 +29,32 @@ html {
     overflow: hidden;
   }
   
-  body {
-    height: 100%;
-  }
-  h1 {
-    font-size: $font-size-h1;
-    font-weight: $font-weight-strong;
-    line-height: 2rem;
-  }
-  
-  p {
-    word-spacing: 0.1rem;
-  }
-  a {
-    color: $primary-color;
-    text-decoration: none;
-  
-    &:hover {
-      color: $text-color;
-    }
-  }
-svg:not(:root) {
-    overflow: hidden;
+body {
+  height: 100%;
 }
+  
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+  }
+}
+h1 {
+  font-size: $font-size-h1;
+  font-weight: $font-weight-strong;
+  line-height: 2rem;
+}
+  
+p {
+  word-spacing: 0.1rem;
+}
+  
+// svg:not(:root) {
+//     overflow: hidden;
+// }
+
 #landing {
     background: #2b2d2f;
     color: #fff;
@@ -83,23 +83,201 @@ svg:not(:root) {
   }
 
 .landing-icons {
-    display: flex;
-    justify-content: center;
-}
-.landing-icons .social-link {
-    color: #fff;
+  display: flex;
+  justify-content: center;
+
+  .social-link {
+    color: $text-color;
     position: relative;
     height: 3rem;
     line-height: 3rem;
     margin: 0.25rem;
     width: 3rem;
+
+    .circle {
+      animation: outWaveOut 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+      fill: none;
+      stroke-dasharray: 40;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .social {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 0px;
+      transition: all 0.5s ease-in-out;
+      width: 100%;
+    }
+
+    .social-svg {
+      fill: white;
+    }
+
+    .label {
+      display: none;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .circle {
+        animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+          colorBlackIcon 1s linear forwards;
+        fill: $text-color;
+        fill-opacity: 1;
+      }
+
+      .social-svg {
+        fill: #000;
+      }
+
+      .label {
+        display: unset !important;
+        position: relative;
+        top: -2rem;
+      }
+    }
+  }
+
+  .email:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorEmail 1s linear forwards;
+    }
+    .social-svg {
+      fill: #d44638;
+    }
+  }
+
+  .telegram:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorTelegram 1s linear forwards;
+    }
+    .social-svg {
+      fill: #2aabee;
+    }
+  }
+
+  .linkedin:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorLinkedIn 1s linear forwards;
+    }
+    .social-svg {
+      fill: #0072b1;
+    }
+  }
+
+  .stackoverflow:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorStackOverflow 1s linear forwards;
+    }
+    .social-svg {
+      fill: #f47f24;
+    }
+  }
+
+  .twitter:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorTwitter 1s linear forwards;
+    }
+    .social-svg {
+      fill: #1da1f2;
+    }
+  }
+
+  .instagram:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorInstagram 1s linear forwards;
+    }
+    .social-svg {
+      fill: #e1306c;
+    }
+  }
+
+  .facebook:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorFacebook 1s linear forwards;
+    }
+    .social-svg {
+      fill: #4267b2;
+    }
+  }
+
+  @keyframes outWaveIn {
+    to {
+      stroke-dasharray: 510;
+      stroke-width: 0.5rem;
+    }
+  }
+
+  @keyframes outWaveOut {
+    from {
+      stroke: $text-color;
+      stroke-dasharray: 510;
+      stroke-width: 0.5rem;
+    }
+    to {
+      stroke: $text-color;
+      stroke-dasharray: 83;
+      stroke-width: 0.5rem;
+    }
+  }
+
+  @keyframes colorBlackIcon {
+    to {
+      stroke: #000;
+    }
+  }
+
+  @keyframes colorEmail {
+    to {
+      stroke: #b23121;
+    }
+  }
+
+  @keyframes colorTelegram {
+    to {
+      stroke: #229ed9;
+    }
+  }
+
+  @keyframes colorLinkedIn {
+    to {
+      stroke: #005b8e;
+    }
+  }
+
+  @keyframes colorStackOverflow {
+    to {
+      stroke: #d96311;
+    }
+  }
+
+  @keyframes colorTwitter {
+    to {
+      stroke: #1da1f2;
+    }
+  }
+
+  @keyframes colorFacebook {
+    to {
+      stroke: #2f477a;
+    }
+  }
+
+  @keyframes colorInstagram {
+    to {
+      stroke: #833ab4;
+    }
+  }
 }
-.landing-icons .social-link .circle {
-    animation: outWaveOut 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
-    fill: none;
-    stroke-dasharray: 40;
-    transition: all 0.2s ease-in-out;
-}
+
 .landing-title {
     left: 0;
     margin: 0.5rem;
@@ -107,15 +285,6 @@ svg:not(:root) {
     position: absolute;
     right: 0;
     top: 40%;
-}
-
-.social-link {
-color: $text-color;
-position: relative;
-height: 3rem;
-line-height: 3rem;
-margin: 0.25rem;
-width: 3rem;
 }
 
 @media only screen and (min-width: 48em){
@@ -127,4 +296,18 @@ width: 3rem;
     .landing-title h1 {
         font-size: 3rem;
     }
+}
+
+// Reusable Animations
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 0.5rem;
+  }
+  100% {
+    bottom: 0;
+  }
 }
