@@ -298,6 +298,9 @@ p {
 .layout .card .description {
   text-align: justify;
 }
+.neumorphism-card-big {
+  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+}
 
 @media only screen and (min-width: $small-screen) {
   .layout {
@@ -325,15 +328,15 @@ p {
 }
 @media only screen and (min-width: $medium-screen) {
   .layout {
-    padding: 5rem 5rem;
-  }
-}
-@media only screen and (min-width: $large-screen) {
-  .layout {
     padding: 3rem 3rem;
   }
   .layout .card {
     padding: 1rem 3rem;
+  }
+}
+@media only screen and (min-width: $large-screen) {
+  .layout {
+    padding: 5rem 5rem;
   }
 }
 
