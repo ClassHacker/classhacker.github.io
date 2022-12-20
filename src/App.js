@@ -6,6 +6,7 @@ import { faTelegram, faLinkedinIn, faGithub, faWhatsapp, faStackOverflow } from 
 
 function App() {
   return (
+    <>
     <div id='landing'>
       <div className='landing-title'>
         <h1>
@@ -72,6 +73,15 @@ function App() {
         </div>
       </div>
     </div>
+    <div className='layout'>
+      <section className='card neumorphism-card-big'>
+        <h1 className='title'>Education & Experience</h1>
+        <p className='subtitle'>
+          For more information, have a look at my <a className='highlight-link' href="public/resume.txt" download="Resume.txt">resume</a>
+        </p>
+      </section>
+    </div>
+    </>
   );
 }
 
