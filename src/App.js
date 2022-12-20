@@ -24,7 +24,7 @@ function App() {
             </div>
             <span className="label">LinkedIn</span>
           </a>
-          <a className="social-link email" aria-label="My E-Mail" href="mailto:ajaydayma1401@gmail.com">
+          <a className="social-link email" aria-label="My E-Mail" href="mailto:ajaykeer1401@gmail.com">
             <svg viewBox="0 0 200 200" className="circle">
               <circle cx="100" cy="100" r="80" fill='null' />
             </svg>
