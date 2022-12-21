@@ -26,7 +26,7 @@ html {
     font-size: $font-size-base;
     font-weight: normal;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
   }
   
 body {
@@ -272,13 +272,13 @@ p {
     padding: 0.5rem;
     position: absolute;
     right: 0;
-    top: 40%;
+    top: auto;
 }
 
 // Layout
 
 .layout {
-  margin: 0.5rem;
+  margin: 10rem 0.5rem;
   max-width: $large-screen;
   padding: 0.5rem 0.5rem;
 }
@@ -315,7 +315,14 @@ p {
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
 }
 .neumorphism-card-mid {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  padding: 1rem;
+  margin: 10px;
+  background: #212121;
+  box-shadow: inset 5px 5px 0px #0d0d0d,
+            inset -5px -5px 0px #353535;
+
+
+
 }
 @mixin neumorphism-button-pressed {
   background: linear-gradient(
@@ -447,7 +454,7 @@ p {
 
 @media only screen and (min-width: $small-screen) {
   .layout {
-    margin: 0.5rem auto;
+    margin: 12.5rem auto;
     padding: 2rem 2rem;
   }
   .layout .card .subtitle {
