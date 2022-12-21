@@ -37,9 +37,10 @@ function App() {
                     <span className='time neumorphism-card'>Aug 2021 - Present</span>
                   </span>
                 </div>
-                {/* <div className='neumorphism-card-mid'> */}
+                <div className='neumorphism-card-mid'>
+                  Full Stack Developer
                   <div className="desc neumorphism-card" data-aos="zoom-in-left">
-                    Full Stack Developer
+                    Framework & Languages
                       <div className="tag-wrapper">
                           <span className="tag neumorphism-card">ReactJS</span>
                           <span className="tag neumorphism-card">Angular</span>
@@ -52,19 +53,22 @@ function App() {
                           <span className="tag neumorphism-card">Mockito</span>
                           <span className="tag neumorphism-card">Cucumber</span>
                           <span className="tag neumorphism-card">AWS</span>
-                          <span className="tag neumorphism-card">Jira</span>
-                          <span className="tag neumorphism-card">Bitbucket</span>
                       </div>
                   </div>
-                  {/* <div className="desc neumorphism-card" data-aos="zoom-in-left">
-                    Tools
+                  <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                    IDEs & Tools
                       <div className="tag-wrapper">
-                          <span className="tag neumorphism-card">VS Code</span>
-                          <span className="tag neumorphism-card">STS</span>
-                          <span className="tag neumorphism-card">POSTMAN</span>
+                          <span className="tag neumorphism-card">Visual Studio Code</span>
+                          <span className="tag neumorphism-card">Spring Tool Suit</span>
+                          <span className="tag neumorphism-card">Intellij IDEA</span>
+                          <span className="tag neumorphism-card">Postman</span>
+                          <span className="tag neumorphism-card">Splunk</span>
+                          <span className="tag neumorphism-card">Jira</span>
+                          <span className="tag neumorphism-card">Bitbucket</span>
+                          <span className="tag neumorphism-card">Bamboo</span>
                       </div>
-                  </div> */}
-                {/* </div> */}
+                  </div>
+                </div>
               </div>
             </li>
           </ul>
