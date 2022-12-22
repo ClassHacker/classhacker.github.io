@@ -135,7 +135,7 @@ function App() {
                 <span className="tag neumorphism-card">jest</span>
             </div>
           </div>
-          <div className='project neumorphism-card'>
+          <div className='project neumorphism-card-mid'>
             <div className="name-link-wrapper">
               <h3 color='white'>classhacker.github.io</h3>
             </div>
