@@ -71,6 +71,41 @@ function App() {
                 </div>
               </div>
             </li>
+            <li>
+              <div className='direction-l'>
+                <div className='flag-wrapper'>
+                  <span className='hexagon'></span>
+                  <span className='flag neumorphism-button' data-aos="zoom-in-left">
+                    <a href="https://bce.ac.in/" target="_blank" rel="noreferrer">
+                      <span>Bansal College Of Engineering</span>
+                    </a>
+                  </span>
+                  <span className='time-wrapper' data-aos="zoom-in-left">
+                    <span className='time neumorphism-card'>July 2017 - July 2021</span>
+                  </span>
+                </div>
+                <div className='neumorphism-card-mid'>
+                Bachelor of Technology
+                  <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      <div className="tag-wrapper">
+                          <span className="tag neumorphism-card">C</span>
+                          <span className="tag neumorphism-card">C++</span>
+                          <span className="tag neumorphism-card">Python</span>
+                          <span className="tag neumorphism-card">HTML</span>
+                          <span className="tag neumorphism-card">CSS</span>
+                          <span className="tag neumorphism-card">Bootstrap</span>
+                          <span className="tag neumorphism-card">JavaScript</span>
+                          <span className="tag neumorphism-card">Data Structure</span>
+                          <span className="tag neumorphism-card">Object Oriented Programming</span>
+                          <span className="tag neumorphism-card">Software Engineering</span>
+                          <span className="tag neumorphism-card">Communication</span>
+                          <span className="tag neumorphism-card">Problem Solving</span>
+                          <span className="tag neumorphism-card">Visual Studio Code</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
       </section>
