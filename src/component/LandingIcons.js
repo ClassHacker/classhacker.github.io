@@ -5,7 +5,7 @@ import { faTelegram, faLinkedinIn, faGithub, faWhatsapp, faStackOverflow } from 
 export function LandingIcons() {
     return (
         <div className='landing-icons'>
-        <a className="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer" href="https://in.linkedin.com/in/classhacker">
+        <a className="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/classhacker">
           <svg viewBox="0 0 200 200" className="circle">
             <circle cx="100" cy="100" r="80" fill='null' />
           </svg>
