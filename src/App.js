@@ -1,6 +1,8 @@
 import './App.scss';
 import { Flash } from './component/styled/Sdiv';
 import { LandingIcons } from './component/LandingIcons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -19,9 +21,6 @@ function App() {
     <div className='layout'>
       <section className='card neumorphism-card-big'>
         <h1 className='title'>Education & Experience</h1>
-        {/* <p className='subtitle'>
-          For more information, have a look at my <a className='highlight-link' href="public/resume.txt" download="Resume.txt">resume</a>
-        </p> */}
         <div className='timeline-wrapper'>
           <ul className='timeline'>
             <li>
@@ -87,6 +86,7 @@ function App() {
                 <div className='neumorphism-card-mid'>
                 Bachelor of Technology
                   <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      Computer Science
                       <div className="tag-wrapper">
                           <span className="tag neumorphism-card">C</span>
                           <span className="tag neumorphism-card">C++</span>
@@ -107,6 +107,56 @@ function App() {
               </div>
             </li>
           </ul>
+        </div>
+      </section>
+      <section className='card neumorphism-card-big'>
+        <h1 className='title'>Portfolio Projects</h1>
+        <div className='projects-wrapper'>
+          <div className='project neumorphism-card'>
+            <div className="name-link-wrapper">
+              <h3 color='white'>Tic-Tac-Toe-App</h3>
+            </div>
+            <div className='project-desc'>A simple tic-tac-toe game</div>
+            {/* <div className='landing-icons'>
+              <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
+                <svg viewBox="0 0 200 200" className="circle">
+                  <circle cx="100" cy="100" r="80" fill='null' />
+                </svg>
+                <div className='social'>
+                  <FontAwesomeIcon icon={faGlobe} className="social-svg" />
+                </div>
+              </a>
+            </div> */}
+            <div className="tag-wrapper">
+                <span className="tag neumorphism-card">react</span>
+                <span className="tag neumorphism-card">react-redux</span>
+                <span className="tag neumorphism-card">react-bootstrap</span>
+                <span className="tag neumorphism-card">sass</span>
+                <span className="tag neumorphism-card">jest</span>
+            </div>
+          </div>
+          <div className='project neumorphism-card'>
+            <div className="name-link-wrapper">
+              <h3 color='white'>classhacker.github.io</h3>
+            </div>
+            <div className='project-desc'>Private Webpage</div>
+            {/* <div className='landing-icons'>
+              <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
+                <svg viewBox="0 0 200 200" className="circle">
+                  <circle cx="100" cy="100" r="80" fill='null' />
+                </svg>
+                <div className='social'>
+                  <FontAwesomeIcon icon={faGlobe} className="social-svg" />
+                </div>
+              </a>
+            </div> */}
+            <div className="tag-wrapper">
+                <span className="tag neumorphism-card">react</span>
+                <span className="tag neumorphism-card">react-animation</span>
+                <span className="tag neumorphism-card">styled-components</span>
+                <span className="tag neumorphism-card">sass</span>
+            </div>
+          </div>
         </div>
       </section>
     </div>
