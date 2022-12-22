@@ -112,7 +112,7 @@ function App() {
       <section className='card neumorphism-card-big'>
         <h1 className='title'>Portfolio Projects</h1>
         <div className='projects-wrapper'>
-          <div className='project neumorphism-card'>
+          <div className='project neumorphism-card-mid'>
             <div className="name-link-wrapper">
               <h3 color='white'>Tic-Tac-Toe-App</h3>
             </div>
