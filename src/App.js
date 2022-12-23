@@ -114,9 +114,14 @@ function App() {
         <div className='projects-wrapper'>
           <div className='project neumorphism-card-mid'>
             <div className="name-link-wrapper">
-              <h3 color='white'>Tic-Tac-Toe-App</h3>
+              {/* <h3 color='white'>Tic-Tac-Toe-App</h3> */}
+              <a color='blue' href="https://classhacker.github.io/tic-tac-toe/" target="_blank" rel="noreferrer">
+                <h3>tic-tac-toe</h3>
+              </a>
             </div>
-            <div className='project-desc'>A simple tic-tac-toe game</div>
+            <p className='project-desc'>A simple tic-tac-toe game</p>
+            <a className='highlight-link' href="https://github.com/ClassHacker/tic-tac-toe" 
+            target="_blank" rel="noreferrer">GitHub</a>
             {/* <div className='landing-icons'>
               <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
                 <svg viewBox="0 0 200 200" className="circle">
@@ -137,9 +142,15 @@ function App() {
           </div>
           <div className='project neumorphism-card-mid'>
             <div className="name-link-wrapper">
-              <h3 color='white'>classhacker.github.io</h3>
+              {/* <h3 color='white'>classhacker.github.io</h3> */}
+              <a href="https://classhacker.github.io/" target="_blank" rel="noreferrer">
+                <h3>classhacker.github.io</h3>
+              </a>
             </div>
-            <div className='project-desc'>Private Webpage</div>
+            
+            <p className='project-desc'>Private Webpage</p>
+            <a className='highlight-link' href="https://github.com/ClassHacker/classhacker.github.io" 
+            target="_blank" rel="noreferrer">GitHub</a>
             {/* <div className='landing-icons'>
               <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
                 <svg viewBox="0 0 200 200" className="circle">
