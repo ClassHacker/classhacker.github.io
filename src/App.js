@@ -1,8 +1,6 @@
 import './App.scss';
 import { Flash } from './component/styled/Sdiv';
 import { LandingIcons } from './component/LandingIcons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
@@ -122,16 +120,6 @@ function App() {
             <p className='project-desc'>A simple tic-tac-toe game</p>
             <a className='highlight-link' href="https://github.com/ClassHacker/tic-tac-toe" 
             target="_blank" rel="noreferrer">GitHub</a>
-            {/* <div className='landing-icons'>
-              <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
-                <svg viewBox="0 0 200 200" className="circle">
-                  <circle cx="100" cy="100" r="80" fill='null' />
-                </svg>
-                <div className='social'>
-                  <FontAwesomeIcon icon={faGlobe} className="social-svg" />
-                </div>
-              </a>
-            </div> */}
             <div className="tag-wrapper">
                 <span className="tag neumorphism-card">react</span>
                 <span className="tag neumorphism-card">react-redux</span>
@@ -151,16 +139,6 @@ function App() {
             <p className='project-desc'>Private Webpage</p>
             <a className='highlight-link' href="https://github.com/ClassHacker/classhacker.github.io" 
             target="_blank" rel="noreferrer">GitHub</a>
-            {/* <div className='landing-icons'>
-              <a className="social-link telegram" aria-label="My Telegram" target="_blank" rel="noreferrer" href="https://t.me/classhacker">
-                <svg viewBox="0 0 200 200" className="circle">
-                  <circle cx="100" cy="100" r="80" fill='null' />
-                </svg>
-                <div className='social'>
-                  <FontAwesomeIcon icon={faGlobe} className="social-svg" />
-                </div>
-              </a>
-            </div> */}
             <div className="tag-wrapper">
                 <span className="tag neumorphism-card">react</span>
                 <span className="tag neumorphism-card">react-animation</span>
