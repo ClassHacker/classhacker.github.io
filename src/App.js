@@ -22,7 +22,7 @@ function App() {
       <div className='layout'>
         <Experience />
         <Portfolio />
-        {/* <Skills /> */}
+        <Skills />
       </div>
     </>
   );
