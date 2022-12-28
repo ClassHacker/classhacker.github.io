@@ -22,10 +22,10 @@ export function Experience() {
                   <div className="desc neumorphism-card" data-aos="zoom-in-left">
                     Framework & Languages
                       <div className="tag-wrapper">
-                          <span className="tag neumorphism-card">ReactJS</span>
+                          <span className="tag neumorphism-card">React</span>
                           <span className="tag neumorphism-card">Angular</span>
-                          <span className="tag neumorphism-card">NodeJS</span>
-                          <span className="tag neumorphism-card">ExpressJS</span>
+                          <span className="tag neumorphism-card">Node</span>
+                          <span className="tag neumorphism-card">Express</span>
                           <span className="tag neumorphism-card">Jest</span>
                           <span className="tag neumorphism-card">Spring boot</span>
                           <span className="tag neumorphism-card">Java 8</span>
