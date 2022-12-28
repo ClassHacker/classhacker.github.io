@@ -3,6 +3,7 @@ import { Flash } from './component/styled/Sdiv';
 import { LandingIcons } from './component/LandingIcons';
 import { Portfolio } from './component/Projects';
 import { Experience } from './component/Experience';
+import { Skills } from './component/Skills';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <div className='layout'>
         <Experience />
         <Portfolio />
+        {/* <Skills /> */}
       </div>
     </>
   );
