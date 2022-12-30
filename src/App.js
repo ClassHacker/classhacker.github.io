@@ -17,7 +17,7 @@ function App() {
           <Flash>
             Full Stack Developer
           </Flash>
-          <Icons />
+          <Icons type='landing-icons' />
         </div>
       </div>
       <div className='layout'>

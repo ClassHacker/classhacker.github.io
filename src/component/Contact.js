@@ -5,7 +5,7 @@ export function Contact() {
         <section className="card neumorphism-card-big">
             <h1 className="title">Contact</h1>
             <p className="subtitle">Feel free to contact me</p>
-          {/* <Icons /> */}
+          <Icons type="contact-icons"/>
         </section>
     )
 }
