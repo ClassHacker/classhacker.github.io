@@ -486,6 +486,10 @@ p {
     text-align: center;
     width: 3rem;
 
+    .circle {
+      display: none;
+    }
+    
     .social {
       font-size: 1.5rem;
     }
