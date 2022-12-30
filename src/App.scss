@@ -494,12 +494,22 @@ p {
       fill: $primary-color;
     }
 
+    .label {
+      display: none;
+    }
+
     &:hover {
       cursor: pointer;
       animation: jump 1s infinite alternate;
 
       .social-svg {
         fill: $text-color;
+      }
+
+      .label {
+        display: unset !important;
+        position: relative;
+        top: -2rem;
       }
     }
   }
