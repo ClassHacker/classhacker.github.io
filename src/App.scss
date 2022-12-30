@@ -632,6 +632,15 @@ p {
       width: 44%;
     }
   }
+  .contact-icons .social-link {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+
+    .social {
+      font-size: 2rem;
+    }
+  }
 }
 @media only screen and (min-width: $medium-screen) {
   .layout {
