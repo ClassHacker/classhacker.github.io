@@ -134,6 +134,9 @@ p {
       }
     }
   }
+  // .telegram, .whatsapp{
+  //   display: none;
+  // }
 
   .email:hover {
     .circle {
@@ -489,7 +492,7 @@ p {
     .circle {
       display: none;
     }
-    
+
     .social {
       font-size: 1.5rem;
     }
@@ -517,48 +520,44 @@ p {
       }
     }
   }
-
-  .black:hover {
+  // .stackoverflow, .github{
+  //   display: none;
+  // }
+  
+  .email:hover {
     .social-svg {
-      fill: #000;
+      color: #d44638;
     }
   }
 
   .telegram:hover {
     .social-svg {
-      fill: #2aabee;
+      color: #2aabee;
     }
   }
 
   .linkedin:hover {
     .social-svg {
-      fill: #007bb6;
-    }
-  }
-
-  .twitter:hover {
-    .social-svg {
-      fill: #1da1f2;
+      color: #007bb6;
     }
   }
 
   .stackoverflow:hover {
     .social-svg {
-      fill: #f47f24;
+      color: #f47f24;
     }
   }
 
-  .instagram:hover {
+  .whatsapp:hover {
     .social-svg {
-      fill: #c13584;
+      color: #25D366;
     }
   }
-
-  .facebook:hover {
-    .social-svg {
-      fill: #4267b2;
-    }
-  }
+  // .instagram:hover {
+  //   .social-svg {
+  //     fill: #c13584;
+  //   }
+  // }
 }
 
 @media only screen and (min-width: $small-screen) {
