@@ -1,9 +1,10 @@
 import './App.scss';
 import { Flash } from './component/styled/Sdiv';
-import { LandingIcons } from './component/LandingIcons';
+import { Icons } from './component/Icons';
 import { Portfolio } from './component/Projects';
 import { Experience } from './component/Experience';
 import { Skills } from './component/Skills';
+import { Contact } from './component/Contact';
 
 function App() {
   return (
@@ -16,13 +17,14 @@ function App() {
           <Flash>
             Full Stack Developer
           </Flash>
-          <LandingIcons />
+          <Icons />
         </div>
       </div>
       <div className='layout'>
         <Experience />
         <Portfolio />
         <Skills />
+        <Contact />
       </div>
     </>
   );

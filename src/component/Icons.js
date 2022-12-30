@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faTelegram, faLinkedinIn, faGithub, faWhatsapp, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 
-export function LandingIcons() {
+export function Icons() {
     return (
       <div className='landing-icons'>
         <a className="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/classhacker">

@@ -473,6 +473,79 @@ p {
   padding: 0.5rem;
 }
 
+.contact-icons {
+  display: flex;
+  justify-content: center;
+
+  .social-link {
+    position: relative;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0.25rem;
+    text-align: center;
+    width: 3rem;
+
+    .social {
+      font-size: 1.5rem;
+    }
+
+    .social-svg {
+      fill: $primary-color;
+    }
+
+    &:hover {
+      cursor: pointer;
+      animation: jump 1s infinite alternate;
+
+      .social-svg {
+        fill: $text-color;
+      }
+    }
+  }
+
+  .black:hover {
+    .social-svg {
+      fill: #000;
+    }
+  }
+
+  .telegram:hover {
+    .social-svg {
+      fill: #2aabee;
+    }
+  }
+
+  .linkedin:hover {
+    .social-svg {
+      fill: #007bb6;
+    }
+  }
+
+  .twitter:hover {
+    .social-svg {
+      fill: #1da1f2;
+    }
+  }
+
+  .stackoverflow:hover {
+    .social-svg {
+      fill: #f47f24;
+    }
+  }
+
+  .instagram:hover {
+    .social-svg {
+      fill: #c13584;
+    }
+  }
+
+  .facebook:hover {
+    .social-svg {
+      fill: #4267b2;
+    }
+  }
+}
+
 @media only screen and (min-width: $small-screen) {
   .layout {
     margin: 12.5rem auto;
