@@ -26,6 +26,20 @@ function App() {
         <Skills />
         <Contact />
       </div>
+      <footer class="footer">
+        <p>
+          &copy; 2023 ClassHacker
+        </p>
+        <p>
+          <a class="highlight-link" href="https://github.com/ClassHacker/classhacker.github.io" target="_blank" rel="noreferrer">
+            Published
+          </a>
+          with
+          <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+            GitHub Pages
+          </a>
+        </p>
+      </footer>
     </>
   );
 }
