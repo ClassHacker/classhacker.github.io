@@ -34,7 +34,7 @@ function App() {
           <a class="highlight-link" href="https://github.com/ClassHacker/classhacker.github.io" target="_blank" rel="noreferrer">
             Published
           </a>
-          with
+          &#160;with&#160;
           <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
             GitHub Pages
           </a>
