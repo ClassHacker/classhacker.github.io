@@ -32,7 +32,6 @@ export function Experience() {
                           <span className="tag neumorphism-card">Junit</span>
                           <span className="tag neumorphism-card">Mockito</span>
                           <span className="tag neumorphism-card">Cucumber</span>
-                          <span className="tag neumorphism-card">AWS</span>
                       </div>
                   </div>
                   <div className="desc neumorphism-card" data-aos="zoom-in-left">
@@ -46,6 +45,7 @@ export function Experience() {
                           <span className="tag neumorphism-card">Jira</span>
                           <span className="tag neumorphism-card">Bitbucket</span>
                           <span className="tag neumorphism-card">Bamboo</span>
+                          <span className="tag neumorphism-card">AWS</span>
                       </div>
                   </div>
                 </div>
