@@ -2,7 +2,7 @@
   "name": "classhacker.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://classhacker.github.io/",
+  "homepage": "https://classhacker.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
