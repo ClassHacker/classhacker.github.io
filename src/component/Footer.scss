@@ -1,0 +1,19 @@
+@import '../variables';
+
+.footer {
+    background: $bg-color;
+    color: $text-color;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+  .footer a {
+    color: $primary-color;
+
+    &:hover,
+    &:focus {
+        background: $bg-color;
+        color: $text-color;
+    }
+}
