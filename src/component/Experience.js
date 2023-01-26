@@ -67,7 +67,7 @@ export function Experience() {
                 <div className='neumorphism-card-mid'>
                 Bachelor of Technology
                   <div className="desc neumorphism-card" data-aos="zoom-in-left">
-                      Computer Science
+                      Computer Science Engineering
                       <div className="tag-wrapper">
                           <span className="tag neumorphism-card">C</span>
                           <span className="tag neumorphism-card">C++</span>
