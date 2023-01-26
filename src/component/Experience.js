@@ -9,7 +9,7 @@ export function Experience() {
                 <div className='flag-wrapper'>
                   <span className='hexagon'></span>
                   <span className='flag neumorphism-button' data-aos="zoom-in-left">
-                    <a href="https://tcs.com/" target="_blank" rel="noreferrer">
+                    <a href="https://www.tcs.com/" target="_blank" rel="noreferrer">
                       <span>Tata Consultancy Services</span>
                     </a>
                   </span>
