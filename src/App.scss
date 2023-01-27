@@ -121,6 +121,10 @@ p {
   // .telegram, .whatsapp{
   //   display: none;
   // }
+    
+    .instagram {
+      display: none;
+    }
 
   .email:hover {
     .circle {
@@ -505,6 +509,7 @@ p {
       }
     }
   }
+
   .stackoverflow, .github{
     display: none;
   }
