@@ -3,13 +3,13 @@
 {
 	"name": "Node.js",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:14",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers-contrib/features/express-generator:1": {},
-		"ghcr.io/devcontainers-contrib/features/jest:1": {},
-		"ghcr.io/devcontainers-contrib/features/typescript:1": {},
-	        "ghcr.io/devcontainers/features/aws-cli:1": {}
-	}
+	// "features": {
+		// "ghcr.io/devcontainers/features/node:1": {},
+		// "ghcr.io/devcontainers-contrib/features/express-generator:1": {},
+		// "ghcr.io/devcontainers-contrib/features/jest:1": {}
+		// "ghcr.io/devcontainers-contrib/features/typescript:1": {},
+	    // "ghcr.io/devcontainers/features/aws-cli:1": {}
+	// }
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
