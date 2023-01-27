@@ -505,9 +505,9 @@ p {
       }
     }
   }
-  // .stackoverflow, .github{
-  //   display: none;
-  // }
+  .stackoverflow, .github{
+    display: none;
+  }
   
   .email:hover {
     .social-svg {
