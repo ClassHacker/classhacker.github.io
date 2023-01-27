@@ -122,9 +122,9 @@ p {
   //   display: none;
   // }
     
-    .instagram {
-      display: none;
-    }
+  .instagram {
+    display: none;
+  }
 
   .email:hover {
     .circle {
@@ -549,7 +549,18 @@ p {
     }
   }
 }
-
+@media only screen and (max-width: $extra-small-screen) {
+  h1 {
+    font-size: 1.75rem;
+    text-shadow: 0.20rem 0.20rem 0.20rem #000;
+    line-height: 1.75rem;
+  }
+  .landing-icons {
+    .whatsapp {
+      display: none;
+    }
+  }
+}
 @media only screen and (min-width: $small-screen) {
   .layout {
     margin: 12.5rem auto;
