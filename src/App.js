@@ -6,6 +6,7 @@ import { Experience } from './component/Experience';
 import { Skills } from './component/Skills';
 import { Contact } from './component/Contact';
 import { Footer } from './component/Footer';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
         <Skills />
         <Contact />
       </div>
-      <Footer/>
+      <AnimationOnScroll animateIn="animate__bounceIn" offset={100}>
+        <Footer/>
+      </AnimationOnScroll>
     </>
   );
 }
