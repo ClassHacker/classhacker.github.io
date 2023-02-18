@@ -24,10 +24,9 @@ function App() {
       </div>
       <div className='layout'>
         <Experience />
-        {/* <AnimationOnScroll animateIn="animate__fadeInLeft" animateOut="animate__fadeOutRight" offset={100}>
+        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOut="animate__fadeOutRight" offset={100}>
           <Portfolio />
-        </AnimationOnScroll> */}
-          <Portfolio />
+        </AnimationOnScroll>
         {/* <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp" offset={100}>
           <Skills />
         </AnimationOnScroll> */}
