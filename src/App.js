@@ -30,10 +30,9 @@ function App() {
         <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp" offset={100}>
           <Skills />
         </AnimationOnScroll>
-        {/* <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={100}>
+        <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={100}>
           <Contact/>
-        </AnimationOnScroll> */}
-          <Contact />
+        </AnimationOnScroll>
       </div>
       <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={100}>
         <Footer/>
