@@ -1,4 +1,7 @@
 export function Experience() {
+    const cse = ['C', 'C++', 'Python', 'HTML', 'CSS', 'Bootstrap', 'JavaScript',
+      'Data Structure', 'Object Oriented Programming', 'Software Engineering',
+      'Communication', 'Problem Solving', 'Visual Studio Code']
     return (
         <section className='card neumorphism-card-big'>
         <h1 className='title'>Education & Experience</h1>
@@ -69,19 +72,11 @@ export function Experience() {
                   <div className="desc neumorphism-card" data-aos="zoom-in-left">
                       Computer Science Engineering
                       <div className="tag-wrapper">
-                          <span className="tag neumorphism-card">C</span>
-                          <span className="tag neumorphism-card">C++</span>
-                          <span className="tag neumorphism-card">Python</span>
-                          <span className="tag neumorphism-card">HTML</span>
-                          <span className="tag neumorphism-card">CSS</span>
-                          <span className="tag neumorphism-card">Bootstrap</span>
-                          <span className="tag neumorphism-card">JavaScript</span>
-                          <span className="tag neumorphism-card">Data Structure</span>
-                          <span className="tag neumorphism-card">Object Oriented Programming</span>
-                          <span className="tag neumorphism-card">Software Engineering</span>
-                          <span className="tag neumorphism-card">Communication</span>
-                          <span className="tag neumorphism-card">Problem Solving</span>
-                          <span className="tag neumorphism-card">Visual Studio Code</span>
+                        {
+                          cse.map((value, i) =>
+                            (<span key={i} className="tag neumorphism-card">{value}</span>)
+                          )
+                        }
                       </div>
                   </div>
                 </div>
