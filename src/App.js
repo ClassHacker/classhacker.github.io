@@ -33,7 +33,7 @@ function App() {
         <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp" offset={100}>
           <Skills />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={100}>
+        <AnimationOnScroll animateIn="animate__wobble" offset={100}>
           <Contact/>
         </AnimationOnScroll>
       </div>
