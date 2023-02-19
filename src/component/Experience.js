@@ -14,7 +14,7 @@ export function Experience() {
           <ul className='timeline'>
             <li>
               <div className='direction-r'>
-                <AnimationOnScroll animateIn='animate__slideInLeft' animateOut='animate__slideOutLeft'>
+                <AnimationOnScroll animateIn='animate__fadeInLeft' animateOut='animate__fadeOutLeft'>
                   <div className='flag-wrapper'>
                     <span className='hexagon'></span>
                     <span className='flag neumorphism-button' data-aos="zoom-in-left">
@@ -63,7 +63,7 @@ export function Experience() {
             </li>
             <li>
               <div className='direction-l'>
-                <AnimationOnScroll animateIn='animate__slideInRight' animateOut='animate__slideOutRight'>
+                <AnimationOnScroll animateIn='animate__fadeInRight' animateOut='animate__fadeOutRight'>
                   <div className='flag-wrapper'>
                     <span className='hexagon'></span>
                     <span className='flag neumorphism-button' data-aos="zoom-in-left">
