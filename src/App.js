@@ -26,14 +26,13 @@ function App() {
         <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
           <Experience />
         </AnimationOnScroll>
-        {/* <Experience /> */}
-        <AnimationOnScroll animateIn="animate__slideInLeft" animateOut="animate__slideOutRight" offset={100}>
+        <AnimationOnScroll animateIn="animate__slideInLeft" animateOut="animate__slideOutRight">
           <Portfolio />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp" offset={100}>
+        <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp">
           <Skills />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__wobble" offset={100}>
+        <AnimationOnScroll animateIn="animate__wobble">
           <Contact/>
         </AnimationOnScroll>
       </div>
