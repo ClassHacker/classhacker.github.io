@@ -32,7 +32,7 @@ function App() {
         <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp">
           <Skills />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__wobble">
+        <AnimationOnScroll animateIn="animate__fadeIn">
           <Contact/>
         </AnimationOnScroll>
       </div>
