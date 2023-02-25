@@ -26,14 +26,6 @@ export function Skills() {
         <section className="card neumorphism-card-big">
             <h1 className="title">Skills</h1>
             <div id="skills">
-                {/* <input type="radio" id="all" name="filter" checked />
-                <label class="filter-button neumorphism-button" for="all">All</label>
-                <input type="radio" id="language" name="filter" />
-                <label class="filter-button neumorphism-button" for="language">Languages</label>
-                <input type="radio" id="framework" name="filter" />
-                <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
-                <input type="radio" id="tool" name="filter" />
-                <label class="filter-button neumorphism-button" for="tool">Tools</label> */}
                 {
                     skills.map((item, i) => 
                         (<div key={i} skill-type={item.type} skill-weight={item.weight} data-aos="zoom-in">
