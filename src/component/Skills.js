@@ -10,7 +10,6 @@ const skills = [
     { name: 'Postman', type: 'tool', weight: 3 },
     { name: 'JUnit', type: 'framework', weight: 2 },
     { name: 'JavaScript', type: 'language', weight: 3 },
-    { name: 'Angular', type: 'framework', weight: 3 },
     { name: 'Bamboo', type: 'tool', weight: 2 },
     { name: 'Java', type: 'language', weight: 4 },
     { name: 'Mockito', type: 'framework', weight: 2 },
