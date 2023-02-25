@@ -6,7 +6,7 @@ export function Portfolio() {
     <section className='card neumorphism-card-big'>
       <h1 className='title'>Portfolio Projects</h1>
       <div className='projects-wrapper'>
-        <AnimationOnScroll animateIn="animate__zoomIn" animateOut="animate__zoomOut" offset={100}>
+        <AnimationOnScroll animateIn="animate__zoomIn" animateOut="animate__zoomOut" duration={2} offset={100}>
           <div className='project neumorphism-card-mid'>
             <div className="name-link-wrapper">
               <a color='blue' href="https://classhacker.github.io/tic-tac-toe/" target="_blank" rel="noreferrer">
@@ -25,7 +25,7 @@ export function Portfolio() {
             </div>
           </div>
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__zoomIn" animateOut="animate__zoomOut" offset={100}>
+        <AnimationOnScroll animateIn="animate__zoomIn" animateOut="animate__zoomOut" duration={2} offset={100}>
           <div className='project neumorphism-card-mid'>
             <div className="name-link-wrapper">
               <a href="https://classhacker.github.io/" target="_blank" rel="noreferrer">
