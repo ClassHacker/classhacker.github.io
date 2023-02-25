@@ -32,7 +32,6 @@ export function Experience() {
                       Framework & Languages
                         <div className="tag-wrapper">
                             <span className="tag neumorphism-card">React</span>
-                            <span className="tag neumorphism-card">Angular</span>
                             <span className="tag neumorphism-card">Node</span>
                             <span className="tag neumorphism-card">Express</span>
                             <span className="tag neumorphism-card">Jest</span>
