@@ -36,9 +36,9 @@ function App() {
           <Contact/>
         </AnimationOnScroll>
       </div>
-      <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={75}>
+      {/* <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={75}> */}
         <Footer/>
-      </AnimationOnScroll>
+      {/* </AnimationOnScroll> */}
     </>
   );
 }
