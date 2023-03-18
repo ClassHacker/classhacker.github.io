@@ -23,12 +23,12 @@ function App() {
         </div>
       </div>
       <div className='layout'>
-        <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
+        {/* <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut"> */}
           <Experience />
-        </AnimationOnScroll>
-        {/* <AnimationOnScroll animateIn="animate__slideInLeft" animateOut="animate__slideOutRight"> */}
-          <Portfolio />
         {/* </AnimationOnScroll> */}
+        <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
+          <Portfolio />
+        </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" offset={75}>
           <Skills />
         </AnimationOnScroll>
@@ -36,9 +36,9 @@ function App() {
           <Contact/>
         </AnimationOnScroll>
       </div>
-      {/* <AnimationOnScroll animateIn="animate__bounceIn" animateOut="animate__bounceOut" offset={75}> */}
+      <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut" offset={75}>
         <Footer/>
-      {/* </AnimationOnScroll> */}
+      </AnimationOnScroll>
     </>
   );
 }
