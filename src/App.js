@@ -29,10 +29,10 @@ function App() {
         <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
           <Portfolio />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" offset={75}>
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" duration={1/2} offset={75}>
           <Skills />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown">
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" duration={1/2}>
           <Contact/>
         </AnimationOnScroll>
       </div>
