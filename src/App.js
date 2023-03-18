@@ -26,9 +26,9 @@ function App() {
         <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
           <Experience />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__slideInLeft" animateOut="animate__slideOutRight">
+        {/* <AnimationOnScroll animateIn="animate__slideInLeft" animateOut="animate__slideOutRight"> */}
           <Portfolio />
-        </AnimationOnScroll>
+        {/* </AnimationOnScroll> */}
         <AnimationOnScroll animateIn="animate__bounceInDown" animateOut="animate__bounceOutUp">
           <Skills />
         </AnimationOnScroll>
