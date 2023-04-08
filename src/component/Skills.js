@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/react-in-jsx-scope */
 import "./Skills.scss";
 
 const skills = [
