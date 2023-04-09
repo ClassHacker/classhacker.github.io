@@ -1,13 +1,12 @@
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-export function Experience() {
+export function Experience () {
+  const cse = ['C', 'C++', 'Python', 'HTML', 'CSS', 'Bootstrap', 'JavaScript',
+    'Data Structure', 'Object Oriented Programming', 'Software Engineering',
+    'Communication', 'Problem Solving', 'Visual Studio Code'];
 
-    const cse = ['C', 'C++', 'Python', 'HTML', 'CSS', 'Bootstrap', 'JavaScript',
-      'Data Structure', 'Object Oriented Programming', 'Software Engineering',
-      'Communication', 'Problem Solving', 'Visual Studio Code'];
-
-    return (
+  return (
         <section className='card neumorphism-card-big'>
         <h1 className='title'>Education & Experience</h1>
         <div className='timeline-wrapper'>
@@ -93,5 +92,5 @@ export function Experience() {
           </ul>
         </div>
       </section>
-    )
+  );
 }
