@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "eslint": "^8.38.0",
+    "eslint-config-standard": "^17.0.0",
     "eslint-plugin-react": "^7.32.2"
   }
 }
