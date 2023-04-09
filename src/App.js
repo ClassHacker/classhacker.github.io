@@ -8,13 +8,13 @@ import { Contact } from './component/Contact';
 import { Footer } from './component/Footer';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-function App() {
+function App () {
   return (
     <>
       <div id='landing'>
         <div className='landing-title'>
           <h1>
-            Hi, I'm <span className='highlight-title'>Ajay Dayma</span>
+            Hi, I&apos;m <span className='highlight-title'>Ajay Dayma</span>
           </h1>
           <Flash>
             Full Stack Developer
@@ -29,10 +29,10 @@ function App() {
         <AnimationOnScroll animateIn="animate__fadeIn" animateOut="animate__fadeOut">
           <Portfolio />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" duration={1/2} offset={75}>
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" duration={1 / 2} offset={75}>
           <Skills />
         </AnimationOnScroll>
-        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" duration={1/2}>
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOut="animate__fadeOutDown" duration={1 / 2}>
           <Contact/>
         </AnimationOnScroll>
       </div>
