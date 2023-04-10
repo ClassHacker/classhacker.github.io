@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faTelegram, faLinkedinIn, faGithub, faWhatsapp, faStackOverflow, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faTelegram, faLinkedinIn, faGithub, faWhatsapp, faStackOverflow, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-export function Icons(props) {
-    return (
+export function Icons (props) {
+  return (
       <div className={props.type}>
         <a className="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/classhacker">
           <svg viewBox="0 0 200 200" className="circle">
@@ -68,6 +68,6 @@ export function Icons(props) {
           </div>
           <span className="label">Instagram</span>
         </a>
-      </div> 
-    )
+      </div>
+  );
 }
