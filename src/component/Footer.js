@@ -1,7 +1,7 @@
-import "./Footer.scss";
+import './Footer.scss';
 
-export function Footer() {
-    return (
+export function Footer () {
+  return (
     <footer className="footer">
       <p>
         &copy; 2023 ClassHacker
@@ -16,5 +16,5 @@ export function Footer() {
         </a>
       </p>
     </footer>
-    )
+  );
 }
