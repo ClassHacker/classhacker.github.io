@@ -18,7 +18,7 @@
         "react",
         "jest"
     ],
-    "ignorePatterns": ["**/*.txt"],
+    "ignorePatterns": ["**/*.txt", "**/*.scss"],
     "rules": {
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
