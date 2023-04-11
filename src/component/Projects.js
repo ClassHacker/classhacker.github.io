@@ -1,7 +1,7 @@
 
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-export function Portfolio() {
+export function Portfolio () {
   return (
     <section className='card neumorphism-card-big'>
       <h1 className='title'>Portfolio Projects</h1>
@@ -46,5 +46,5 @@ export function Portfolio() {
         </AnimationOnScroll>
       </div>
     </section>
-  )
+  );
 }
