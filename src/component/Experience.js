@@ -26,7 +26,7 @@ export function Experience () {
                     </span>
                   </div>
                   <div className='neumorphism-card-mid'>
-                    Full Stack Developer
+                    System Engineer
                     <div className="desc neumorphism-card" data-aos="zoom-in-left">
                       Framework & Languages
                         <div className="tag-wrapper">
