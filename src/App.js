@@ -17,7 +17,7 @@ function App () {
             Hi, I&apos;m <span className='highlight-title'>Ajay Dayma</span>
           </h1>
           <Flash>
-            Full Stack Developer
+            Aspiring Full Stack Developer
           </Flash>
           <Icons type='landing-icons' />
         </div>
