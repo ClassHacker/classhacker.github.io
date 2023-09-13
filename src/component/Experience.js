@@ -2,9 +2,9 @@
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 export function Experience () {
-  const cse = ['C', 'C++', 'Python', 'HTML', 'CSS', 'Bootstrap', 'JavaScript',
-    'Data Structure', 'Object Oriented Programming', 'Software Engineering',
-    'Communication', 'Problem Solving', 'Visual Studio Code'];
+  // const cse = ['C', 'C++', 'Python', 'HTML', 'CSS', 'Bootstrap', 'JavaScript',
+  //   'Data Structure', 'Object Oriented Programming', 'Software Engineering',
+  //   'Communication', 'Problem Solving', 'Visual Studio Code'];
 
   return (
         <section className='card neumorphism-card-big'>
@@ -28,21 +28,23 @@ export function Experience () {
                   <div className='neumorphism-card-mid'>
                     System Engineer
                     <div className="desc neumorphism-card" data-aos="zoom-in-left">
-                      Framework & Languages
+                      Framework & Languages Used
                         <div className="tag-wrapper">
+                            <span className="tag neumorphism-card">Java 8</span>
+                            <span className="tag neumorphism-card">Spring boot</span>
+                            <span className="tag neumorphism-card">JavaScript</span>
                             <span className="tag neumorphism-card">React</span>
                             <span className="tag neumorphism-card">Node</span>
                             <span className="tag neumorphism-card">Express</span>
+                            <span className="tag neumorphism-card">Python</span>
                             <span className="tag neumorphism-card">Jest</span>
-                            <span className="tag neumorphism-card">Spring boot</span>
-                            <span className="tag neumorphism-card">Java 8</span>
                             <span className="tag neumorphism-card">Junit</span>
                             <span className="tag neumorphism-card">Mockito</span>
                             <span className="tag neumorphism-card">Cucumber</span>
                         </div>
                     </div>
                     <div className="desc neumorphism-card" data-aos="zoom-in-left">
-                      IDEs & Tools
+                      IDEs & Tools Used
                         <div className="tag-wrapper">
                             <span className="tag neumorphism-card">Visual Studio Code</span>
                             <span className="tag neumorphism-card">Spring Tool Suit</span>
@@ -69,21 +71,50 @@ export function Experience () {
                         <span>Bansal College Of Engineering</span>
                       </a>
                     </span>
-                    <span className='time-wrapper' data-aos="zoom-in-left">
+                    {/* <span className='time-wrapper' data-aos="zoom-in-left">
                       <span className='time neumorphism-card'>July 2017 - July 2021</span>
-                    </span>
+                    </span> */}
                   </div>
                   <div className='neumorphism-card-mid'>
                   Bachelor of Technology
                     <div className="desc neumorphism-card" data-aos="zoom-in-left">
-                        Computer Science Engineering
-                        <div className="tag-wrapper">
-                          {
-                            cse.map((value, i) =>
-                              (<span key={i} className="tag neumorphism-card">{value}</span>)
-                            )
-                          }
-                        </div>
+                      2017-21
+                    </div>
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      8.59 CGPA
+                    </div>
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      Computer Science Engineering
+                    </div>
+                  </div>
+                </AnimationOnScroll>
+              </div>
+            </li>
+            <li>
+              <div className='direction-r'>
+                <AnimationOnScroll animateIn='animate__fadeIn' animateOut='animate__fadeOut'>
+                  <div className='flag-wrapper'>
+                    <span className='hexagon'></span>
+                    <span className='flag neumorphism-button' data-aos="zoom-in-left">
+                        <span>Tagore Model HS School</span>
+                    </span>
+                  </div>
+                  <div className='neumorphism-card-mid'>
+                  Class XII (MPBSE)
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      77%
+                    </div>
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      2016-17
+                    </div>
+                  </div>
+                  <div className='neumorphism-card-mid'>
+                  Class X (MPBSE)
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      70%
+                    </div>
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      2014-15
                     </div>
                   </div>
                 </AnimationOnScroll>

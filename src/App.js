@@ -14,10 +14,13 @@ function App () {
       <div id='landing'>
         <div className='landing-title'>
           <h1>
-            Hi, I&apos;m <span className='highlight-title'>Ajay Dayma</span>
+            Hi, I&apos;m
+          </h1>
+          <h1>
+            <span className='highlight-title'>Ajay Dayma</span>
           </h1>
           <Flash>
-            Aspiring Full Stack Developer
+            Full Stack Developer
           </Flash>
           <Icons type='landing-icons' />
         </div>
