@@ -32,15 +32,30 @@ export function Experience () {
                         <div className="tag-wrapper">
                             <span className="tag neumorphism-card">Java 8</span>
                             <span className="tag neumorphism-card">Spring boot</span>
-                            <span className="tag neumorphism-card">JavaScript</span>
-                            <span className="tag neumorphism-card">React</span>
+                            <span className="tag neumorphism-card">Angular</span>
+                            <span className="tag neumorphism-card">TypeScript</span>
                             <span className="tag neumorphism-card">Node</span>
                             <span className="tag neumorphism-card">Express</span>
-                            <span className="tag neumorphism-card">Python</span>
-                            <span className="tag neumorphism-card">Jest</span>
                             <span className="tag neumorphism-card">Junit</span>
                             <span className="tag neumorphism-card">Mockito</span>
+                            <span className="tag neumorphism-card">Jest</span>
                             <span className="tag neumorphism-card">Cucumber</span>
+                            <span className="tag neumorphism-card">Python</span>
+                        </div>
+                    </div>
+                    <div className="desc neumorphism-card" data-aos="zoom-in-left">
+                      Amazon Web Services Used
+                        <div className="tag-wrapper">
+                            <span className="tag neumorphism-card">ECS</span>
+                            <span className="tag neumorphism-card">CloudFormation</span>
+                            <span className="tag neumorphism-card">DynamoDB</span>
+                            <span className="tag neumorphism-card">Lambda</span>
+                            <span className="tag neumorphism-card">S3</span>
+                            <span className="tag neumorphism-card">CloudWatch</span>
+                            <span className="tag neumorphism-card">Route53</span>
+                            <span className="tag neumorphism-card">Lambda</span>
+                            <span className="tag neumorphism-card">SQS</span>
+                            <span className="tag neumorphism-card">SNS</span>
                         </div>
                     </div>
                     <div className="desc neumorphism-card" data-aos="zoom-in-left">
@@ -52,9 +67,9 @@ export function Experience () {
                             <span className="tag neumorphism-card">Postman</span>
                             <span className="tag neumorphism-card">Splunk</span>
                             <span className="tag neumorphism-card">Jira</span>
+                            <span className="tag neumorphism-card">GitHub</span>
                             <span className="tag neumorphism-card">Bitbucket</span>
                             <span className="tag neumorphism-card">Bamboo</span>
-                            <span className="tag neumorphism-card">AWS</span>
                         </div>
                     </div>
                   </div>

@@ -14,7 +14,7 @@
     }
   
     div[skill-type="language"] {
-      color: #e84a5f;
+      color: #e84a5f; 
     }
   
     div[skill-type="framework"] {
@@ -23,6 +23,14 @@
   
     div[skill-type="tool"] {
       color: #fecea8;
+    }
+  
+    div[skill-type="service"] {
+      color: #f4b27c;
+    }
+  
+    div[skill-type="ai"] {
+      color: #f0abab;
     }
   
     div[skill-weight="1"] {

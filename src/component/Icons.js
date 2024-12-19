@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faTelegram, faLinkedinIn, faGithub, faWhatsapp, faStackOverflow, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTelegram, faLinkedinIn, faGithub, faStackOverflow, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export function Icons (props) {
   return (
@@ -50,7 +50,7 @@ export function Icons (props) {
           </div>
           <span className="label">Telegram</span>
         </a>
-        <a className="social-link whatsapp" aria-label="My Whatsapp" target="_blank" rel="noreferrer" href="https://wa.me/+919770311779">
+        {/* <a className="social-link whatsapp" aria-label="My Whatsapp" target="_blank" rel="noreferrer" href="https://wa.me/+919770311779">
           <svg viewBox="0 0 200 200" className="circle">
             <circle cx="100" cy="100" r="80" fill='null' />
           </svg>
@@ -58,7 +58,7 @@ export function Icons (props) {
             <FontAwesomeIcon icon={faWhatsapp} className="social-svg" />
           </div>
           <span className="label">Whatsapp</span>
-        </a>
+        </a> */}
         <a className="social-link instagram" aria-label="My Instagram" target="_blank" rel="noreferrer" href="https://www.instagram.com/ajay_dayma_1401/">
           <svg viewBox="0 0 200 200" className="circle">
             <circle cx="100" cy="100" r="80" fill='null' />
