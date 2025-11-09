@@ -12,7 +12,7 @@ export function Experience () {
         <div className='timeline-wrapper'>
           <ul className='timeline'>
             <li>
-              <div className='direction-l'>
+              <div className='direction-r'>
                 <AnimationOnScroll animateIn='animate__fadeIn' animateOut='animate__fadeOut'>
                   <div className='flag-wrapper'>
                     <span className='hexagon'></span>
@@ -54,7 +54,7 @@ export function Experience () {
               </div>
             </li>
             <li>
-              <div className='direction-r'>
+              <div className='direction-l'>
                 <AnimationOnScroll animateIn='animate__fadeIn' animateOut='animate__fadeOut'>
                   <div className='flag-wrapper'>
                     <span className='hexagon'></span>
@@ -119,7 +119,7 @@ export function Experience () {
               </div>
             </li>
             <li>
-              <div className='direction-l'>
+              <div className='direction-r'>
                 <AnimationOnScroll animateIn='animate__fadeIn' animateOut='animate__fadeOut'>
                   <div className='flag-wrapper'>
                     <span className='hexagon'></span>
