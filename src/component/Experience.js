@@ -18,7 +18,7 @@ export function Experience () {
                     <span className='hexagon'></span>
                     <span className='flag neumorphism-button' data-aos="zoom-in-left">
                       <a href="https://www.apexon.com/" target="_blank" rel="noreferrer">
-                        <span>Apexon</span>
+                        <span>Goldman Sachs | Apexon</span>
                       </a>
                     </span>
                     <span className='time-wrapper' data-aos="zoom-in-left">
@@ -26,7 +26,7 @@ export function Experience () {
                     </span>
                   </div>
                   <div className='neumorphism-card-mid'>
-                    System Engineer
+                    Engineer II
                     <div className="desc neumorphism-card" data-aos="zoom-in-left">
                       Framework & Languages Used
                         <div className="tag-wrapper">
@@ -60,7 +60,7 @@ export function Experience () {
                     <span className='hexagon'></span>
                     <span className='flag neumorphism-button' data-aos="zoom-in-left">
                       <a href="https://www.tcs.com/" target="_blank" rel="noreferrer">
-                        <span>Tata Consultancy Services</span>
+                        <span>Vanguard | Tata Consultancy Services</span>
                       </a>
                     </span>
                     <span className='time-wrapper' data-aos="zoom-in-left">
