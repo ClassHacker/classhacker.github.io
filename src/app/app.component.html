@@ -1,0 +1,131 @@
+<main class="shell" (click)="focusTerminal()">
+  <section class="terminal" aria-label="Ajay Dayma terminal portfolio">
+    <header class="terminal__bar">
+      <div class="window-actions" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="terminal__title">ajay-dayma.portfolio</div>
+      <div class="terminal__status">online</div>
+    </header>
+
+    <div class="hero">
+      <p class="kicker">JAVA FULL STACK DEVELOPER</p>
+      <h1>Ajay Dayma</h1>
+      <p class="hero__copy">
+        I build backend-heavy, cloud-aware full stack systems with Java, Spring Boot,
+        Angular, AWS services, and practical automation.
+      </p>
+    </div>
+
+    <div class="terminal__body">
+      <ng-container *ngFor="let line of lines">
+        <div *ngIf="line.prompt" class="command-line">
+          <span class="prompt">{{ line.prompt }}</span>
+          <span class="typed">{{ line.command }}</span>
+        </div>
+
+        <p *ngIf="line.text" class="output" [class]="line.kind">{{ line.text }}</p>
+
+        <section *ngIf="line.section === 'about'" class="output-block">
+          <h2>whoami</h2>
+          <p>
+            Ajay Dayma is a Java Full Stack Developer focused on enterprise application
+            delivery, backend services, frontend workflows, and AWS-powered platforms.
+          </p>
+          <div class="quick-facts">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Angular</span>
+            <span>AWS</span>
+          </div>
+        </section>
+
+        <section *ngIf="line.section === 'experience'" class="output-block">
+          <h2>experience.log</h2>
+          <article *ngFor="let item of experience" class="timeline-card">
+            <div>
+              <a [href]="item.link" target="_blank" rel="noreferrer">{{ item.organization }}</a>
+              <strong>{{ item.title }}</strong>
+            </div>
+            <time>{{ item.period }}</time>
+            <p *ngFor="let detail of item.details">{{ detail }}</p>
+            <div class="tags">
+              <span *ngFor="let tag of item.tags">{{ tag }}</span>
+            </div>
+          </article>
+        </section>
+
+        <section *ngIf="line.section === 'projects'" class="output-block">
+          <h2>projects.json</h2>
+          <article *ngFor="let project of projects" class="project-card">
+            <div>
+              <h3>{{ project.name }}</h3>
+              <p>{{ project.description }}</p>
+            </div>
+            <div class="project-links">
+              <a [href]="project.demo" target="_blank" rel="noreferrer">demo</a>
+              <a [href]="project.source" target="_blank" rel="noreferrer">source</a>
+            </div>
+            <div class="tags">
+              <span *ngFor="let tag of project.tags">{{ tag }}</span>
+            </div>
+          </article>
+        </section>
+
+        <section *ngIf="line.section === 'skills'" class="output-block">
+          <h2>skills --grouped</h2>
+          <div class="skill-grid">
+            <span *ngFor="let skill of skills" [class]="'skill skill--' + skill.type">
+              {{ skill.name }}
+            </span>
+          </div>
+        </section>
+
+        <section *ngIf="line.section === 'contact'" class="output-block">
+          <h2>contact.env</h2>
+          <div class="contact-grid">
+            <a *ngFor="let social of socials" [href]="social.href" target="_blank" rel="noreferrer">
+              <span>{{ social.label }}</span>
+              <strong>{{ social.handle }}</strong>
+            </a>
+          </div>
+        </section>
+
+        <section *ngIf="line.section === 'help'" class="output-block">
+          <h2>available commands</h2>
+          <div class="help-grid">
+            <span>about</span>
+            <span>experience</span>
+            <span>projects</span>
+            <span>skills</span>
+            <span>contact</span>
+            <span>clear</span>
+          </div>
+        </section>
+      </ng-container>
+
+      <form class="input-line" (ngSubmit)="runCommand()">
+        <label class="prompt" for="command">{{ prompt }}</label>
+        <input
+          #commandInput
+          id="command"
+          name="command"
+          [(ngModel)]="command"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Terminal command"
+          (keydown.arrowUp)="useHistory('previous'); $event.preventDefault()"
+          (keydown.arrowDown)="useHistory('next'); $event.preventDefault()"
+        >
+        <span class="cursor" aria-hidden="true"></span>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 ClassHacker</span>
+    <a href="https://pages.github.com/" target="_blank" rel="noreferrer">Published with GitHub Pages</a>
+  </footer>
+</main>
