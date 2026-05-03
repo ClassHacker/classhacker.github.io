@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-type CommandName = 'about' | 'experience' | 'projects' | 'skills' | 'contact' | 'help' | 'clear';
+type CommandName = 'about' | 'experience' | 'education' | 'projects' | 'skills' | 'contact' | 'help' | 'clear';
 
 interface TimelineEntry {
   title: string;
@@ -53,15 +53,7 @@ export class AppComponent {
     { kind: 'success', text: 'Booting portfolio shell...' },
     { kind: 'muted', text: 'Type "help" for available commands.' },
     { prompt: this.prompt, command: 'about' },
-    { section: 'about' },
-    { prompt: this.prompt, command: 'experience' },
-    { section: 'experience' },
-    { prompt: this.prompt, command: 'projects' },
-    { section: 'projects' },
-    { prompt: this.prompt, command: 'skills' },
-    { section: 'skills' },
-    { prompt: this.prompt, command: 'contact' },
-    { section: 'contact' }
+    { section: 'about' }
   ];
 
   readonly experience: TimelineEntry[] = [
@@ -80,7 +72,10 @@ export class AppComponent {
       link: 'https://www.tcs.com/',
       details: ['Delivered full stack application work with Java, Angular, Node, AWS services, testing, and CI tooling.'],
       tags: ['Java 8', 'Spring Boot', 'Angular', 'TypeScript', 'Node', 'Express', 'JUnit', 'Mockito', 'Jest', 'Cucumber', 'Python', 'ECS', 'CloudFormation', 'DynamoDB', 'Lambda', 'S3', 'CloudWatch', 'Route53', 'SQS', 'SNS', 'Splunk', 'Jira', 'Bamboo']
-    },
+    }
+  ];
+
+  readonly education: TimelineEntry[] = [
     {
       title: 'Bachelor of Technology',
       organization: 'Bansal College Of Engineering',
@@ -101,7 +96,7 @@ export class AppComponent {
     },
     {
       name: 'classhacker.github.io',
-      description: 'This personal portfolio site, rebuilt as a terminal-themed Angular app.',
+      description: 'This personal portfolio site, built as a terminal-themed Angular app.',
       demo: 'https://classhacker.github.io/',
       source: 'https://github.com/ClassHacker/classhacker.github.io',
       tags: ['Angular', 'TypeScript', 'Sass', 'GitHub Pages']
@@ -192,7 +187,7 @@ export class AppComponent {
   }
 
   private isCommand(value: string): value is CommandName {
-    return ['about', 'experience', 'projects', 'skills', 'contact', 'help', 'clear'].includes(value);
+    return ['about', 'experience', 'education', 'projects', 'skills', 'contact', 'help', 'clear'].includes(value);
   }
 
   private scrollToBottom(): void {
