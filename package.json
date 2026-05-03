@@ -7,7 +7,7 @@
     "start": "ng serve",
     "build": "ng build --configuration production --base-href /",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist/classhacker.github.io"
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@angular/animations": "^18.2.13",
