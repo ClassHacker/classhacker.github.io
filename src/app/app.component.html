@@ -31,7 +31,7 @@
         <section *ngIf="line.section === 'about'" class="output-block">
           <h2>whoami</h2>
           <p>
-            Ajay Dayma is a Java Full Stack Developer focused on enterprise application
+            Hi I'm Ajay Dayma, a Java Full Stack Developer focused on enterprise application
             delivery, backend services, frontend workflows, and AWS-powered platforms.
           </p>
           <div class="quick-facts">
@@ -45,6 +45,21 @@
         <section *ngIf="line.section === 'experience'" class="output-block">
           <h2>experience.log</h2>
           <article *ngFor="let item of experience" class="timeline-card">
+            <div>
+              <a [href]="item.link" target="_blank" rel="noreferrer">{{ item.organization }}</a>
+              <strong>{{ item.title }}</strong>
+            </div>
+            <time>{{ item.period }}</time>
+            <p *ngFor="let detail of item.details">{{ detail }}</p>
+            <div class="tags">
+              <span *ngFor="let tag of item.tags">{{ tag }}</span>
+            </div>
+          </article>
+        </section>
+
+        <section *ngIf="line.section === 'education'" class="output-block">
+          <h2>education.log</h2>
+          <article *ngFor="let item of education" class="timeline-card">
             <div>
               <a [href]="item.link" target="_blank" rel="noreferrer">{{ item.organization }}</a>
               <strong>{{ item.title }}</strong>
@@ -98,6 +113,7 @@
           <div class="help-grid">
             <span>about</span>
             <span>experience</span>
+            <span>education</span>
             <span>projects</span>
             <span>skills</span>
             <span>contact</span>
